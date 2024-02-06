@@ -1,6 +1,4 @@
 
-print("Hello World")
-
 def deserialize_hex(hex_transaction):
     transaction = {}
 
