@@ -23,6 +23,7 @@ def deserialize_hex(hex_transaction):
     
     return transaction
 
+
 hex_value = "e81c000000000000"
 # Reverse the byte order to convert to little endian
 little_endian_hex = "".join(reversed([hex_value[i:i+2] for i in range(0, len(hex_value), 2)]))
